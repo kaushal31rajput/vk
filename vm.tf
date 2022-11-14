@@ -14,6 +14,7 @@ resource "google_compute_instance" "default" {
   name         = "test"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
+  project_id   = "decisive-post-366007"
 
   tags = ["foo", "bar"]
 
